@@ -90,12 +90,14 @@ const uploadCursoImagen = multer({
   }
 });
 
-// MySQL connection pool
+// MySQL connection pool (configurable por variables de entorno)
+// En Render/producción puedes definir DB_HOST, DB_USER, DB_PASSWORD y DB_NAME.
+// En desarrollo, se mantienen los valores por defecto locales.
 const pool = mysql.createPool({
-  host: '127.0.0.1',
-  user: 'root',
-  password: '',
-  database: 'infouna',
+  host: process.env.DB_HOST || '127.0.0.1',
+  user: process.env.DB_USER || 'root',
+  password: process.env.DB_PASSWORD || '',
+  database: process.env.DB_NAME || 'infouna',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
