@@ -1,0 +1,10 @@
+{
+  "nombreInstituto": { "x": 221, "y": 60, "fontSize": 16, "color": "#1e293b", "fontWeight": "bold" },
+  "titulo": { "x": 221, "y": 110, "fontSize": 36, "color": "#0f172a", "fontWeight": "bold" },
+  "otorgado": { "x": 221, "y": 170, "fontSize": 14, "color": "#334155" },
+  "nombreEstudiante": { "x": 221, "y": 210, "fontSize": 28, "color": "#000000", "fontWeight": "bold" },
+  "descripcion": { "x": 196, "y": 260, "fontSize": 14, "color": "#000000" },
+  "fecha": { "x": 221, "y": 310, "fontSize": 12, "color": "#000000" },
+  "codigo": { "x": 221, "y": 340, "fontSize": 10, "color": "#666666" },
+  "qr": { "x": 670, "y": 380, "width": 120 }
+}

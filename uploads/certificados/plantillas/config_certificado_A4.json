@@ -1,0 +1,9 @@
+{
+  "nombreEstudiante": { "x": 250, "y": 297, "fontSize": 30, "color": "#000000", "fontWeight": "bold", "align": "left", "width": 650 },
+  "rolParticipacion": { "x": 300, "y": 330, "fontSize": 14, "color": "#000000", "fontWeight": "bold", "align": "center", "width": 300 },
+  "eventoDetalle": { "x": 420, "y": 360, "fontSize": 14, "color": "#000000", "align": "left", "width": 650 },
+  "periodoHoras": { "x": 180, "y": 388, "fontSize": 14, "color": "#000000", "align": "left", "width": 650 },
+  "fecha": { "x": 520, "y": 420, "fontSize": 12, "color": "#000000", "align": "left", "width": 650 },
+  "codigo": { "x": 200, "y": 470, "fontSize": 10, "color": "#666666", "align": "left", "width": 650 },
+  "qr": { "x": 680, "y": 435, "width": 130 }
+}
